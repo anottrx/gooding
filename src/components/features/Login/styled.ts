@@ -8,25 +8,31 @@ export const Container = styled.section`
   width: 100%;
   height: 100vh;
   // background-color: #7d70fa;
-
-  .area {
-    // background-color: #7d70fa;
-  }
 `;
 
 export const IntroduceMainPageWrapper = styled.div`
   display: flex;
   flex-direction: row;
+  margin-bottom: 72px;
+`;
+
+export const IntroducTitleText = styled.div`
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 1.4;
+  justify-content: center;
+  line-height: 1.5;
 `;
 
 export const IntroducMainPageeText = styled.div`
   font-size: 22px;
   font-weight: 600;
   width: 250px;
-  margin-right: 20px;
   line-height: 1.5;
-  display: flex;
-  align-items: center;
+  color: rgb(51, 61, 75);
 `;
 
 export const Img = styled.img`
@@ -41,12 +47,22 @@ export const Logo = styled.img`
 `;
 
 export const Header = styled.div`
-  padding: 12px 15px;
+  padding: 16px 28px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
 `;
 
 export const TitleLogo = styled.img`
   width: 120px;
   height: auto;
+`;
+
+export const GithubButton = styled.div`
+  font-size: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 8px 20px 8px 20px;
 `;
 
 export const Wrapper = styled.div`
@@ -57,7 +73,7 @@ export const Wrapper = styled.div`
 `;
 
 export const TitleText = styled.div`
-  margin-bottom: 32px;
+  margin-bottom: 36px;
   font-size: 3.4rem;
   font-weight: 700;
   text-align: center;
@@ -66,14 +82,13 @@ export const TitleText = styled.div`
 export const PointText = styled.span`
   color: ${Palette.purple};
   font-weight: 800;
-  font-size: 3.4rem;
 `;
 
 export const Form = styled.form`
   display: flex;
   flex-direction: column;
   text-align: center;
-  margin-bottom: 200px;
+  margin-bottom: 300px;
 `;
 
 export const Input = styled.input`
